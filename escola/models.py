@@ -13,7 +13,7 @@ class Alunos(models.Model):
         return self.nome
     
 
-class Curso(models.Model):
+class Cursos(models.Model):
 
     NIVEL = [
         ('B' , 'Básico'),

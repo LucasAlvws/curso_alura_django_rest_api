@@ -22,7 +22,7 @@ class Migration(migrations.Migration):
             ],
         ),
         migrations.CreateModel(
-            name='Curso',
+            name='Cursos',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('codigo_curso', models.CharField(max_length=10)),
